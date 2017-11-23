@@ -1,0 +1,25 @@
+{
+  "name": "dev",
+  "authors": [
+    "ido barnea <barbareshet@gmail.com>"
+  ],
+  "description": "resources folder",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+   "bootstrap" : "^4.0.*",
+    "slick-carousel": "^1.*",
+    "css-hamburgers": "^0.9.1",
+    "font-awesome": "4.*",
+    "flat-social-icons": "0.*",
+    "hover": "^2.1.1"
+  }
+}
