@@ -15,11 +15,12 @@
     "tests"
   ],
   "dependencies": {
-   "bootstrap" : "^4.0.*",
+    "bootstrap": "4.0.0-alpha.6",
     "slick-carousel": "^1.*",
     "css-hamburgers": "^0.9.1",
     "font-awesome": "4.*",
     "flat-social-icons": "0.*",
-    "hover": "^2.1.1"
+    "hover": "^2.1.1",
+    "popper.js": "^1.12.9"
   }
 }

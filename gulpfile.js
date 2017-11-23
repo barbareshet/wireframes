@@ -41,10 +41,9 @@ gulp.task('sass', function() {
 });
 
 // JS tasks
-var bsJS = 'assets/dev/bower_components/dist/js/bootstrap.bundle.min.js',
-    slickJS = 'assets/dev/bower_components/slick-carousel/slick/slick.min.js';
+
 gulp.task('js', function() {
-    return gulp.src([bsJS,slickJS,'assets/dev/js/*.js'])
+    return gulp.src(['assets/dev/js/*.js'])
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(concat('app.js'))
